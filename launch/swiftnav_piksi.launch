@@ -1,6 +1,6 @@
 <launch>
    <node pkg="swiftnav_piksi" type="piksi_node" name="piksi_node" output="screen">
-     <param name="port" value="/dev/ttyUSB0" />
+     <param name="port" value="/dev/piksi" />
    </node>
 
    <node pkg="robot_localization" type="navsat_transform_node" name="navsat_transform_node" output="screen">
